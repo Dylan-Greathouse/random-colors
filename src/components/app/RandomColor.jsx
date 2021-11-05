@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '.././App.css';
+
 
 
 export class RandomColor extends Component {
@@ -11,14 +11,14 @@ export class RandomColor extends Component {
                 style={
                     this.props.color !== '1'
                     ? {
-                          width: '500px',
-                          height: '500px',
+                          width: '300px',
+                          height: '300px',
                           backgroundColor: color
                       }
                     : {
-                          width: '500px',
-                          height: '500px',
-                          backgroundColor: 'white'
+                          width: '800px',
+                          height: '800px',
+                          backgroundColor: 'Black'
                       }
                 }
                 

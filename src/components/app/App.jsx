@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { RandomColor } from './RandomColor';
-import '.././App.css';
+
 
 
 export default class App extends Component {
- state = { color: 'blue' };
+ state = { color: '' };
 
  componentDidMount() {
    this.timerID = setInterval(
