@@ -9,16 +9,16 @@ export class RandomColor extends Component {
             <div
                 className="colorBox"
                 style={
-                    this.props.color[4] !== '9'
+                    this.props.color !== '1'
                     ? {
                           width: '500px',
                           height: '500px',
-                          backgroundColor: color,
+                          backgroundColor: color
                       }
                     : {
                           width: '500px',
                           height: '500px',
-                          
+                          backgroundColor: 'white'
                       }
                 }
                 
